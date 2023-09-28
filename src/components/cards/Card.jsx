@@ -6,6 +6,7 @@ import admin from "../../assets/admin.png";
 import image from "../../assets/image.png";
 import job from "../../assets/job.png";
 import customizer from "../../assets/customizer.png"
+import chattify from "../../assets/chattify.png"
 
 export const Card = () => {
   return (
@@ -92,6 +93,26 @@ export const Card = () => {
               </div>
               <div>
                 <a href="https://customize-one.vercel.app/" className="btn" target="_blank">Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card--item">
+            <div className="card--item-image">
+              <img src={chattify} alt="" srcset="" />
+            </div>
+            <h3>Chattify</h3>
+            <div className="btnn">
+              <div>
+                <a
+                  href="https://github.com/anamikarawat2305/Chattify"
+                  className="btn" target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+              <div>
+                <a href=" " className="btn" target="_blank">Demo</a>
               </div>
             </div>
           </article>
